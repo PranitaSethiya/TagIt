@@ -1,4 +1,6 @@
 TagIt
 =====
 
-Content and Tag Based Image Retrieval System using Automatic Image Annotation
+The main objective of TagIt is to design a Content and Tag Based Image Retrieval System using Automatic Image Annotation that will help in organizing a large database of images. We propose to build a system that will detect objects from images and retrieve images containing the similar objects from database and organize those images by attaching tags, thus keeping them organized for ease of access. The proposed system involves Content Based Image Retrieval with interpretation of objects using different features. The proposed system will first extract features from image and compare those features with the existing set of object images, so as to detect what objects are present in the image, thus finding out all the tags related to the image. Then the user will be asked to verify the tags attached and also to add more tags if required. Then the image will be
+saved to database with appropriate tags. The saved dataset object images will get updated time to time by removing the object images which are found inappropriate using a accept to reject ratio calculated based on the user feedback.
+The proposed system will consist of an image input or a text query which will be used to find the similar images from the user's database. User can add new annotations which will be added to the database for future use.

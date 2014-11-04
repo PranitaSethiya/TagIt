@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff111111"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/llmaintrain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#ff111111"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="#ffffffff" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/ivback"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:background="#ff1e8bd4"
+                android:padding="3dp" />
+
+            <com.edmodo.cropper.CropImageView
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ivTrainImage"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_margin="5dp"
+                android:layout_centerInParent="true"
+                custom:imageResource="@drawable/img" >
+
+                <requestFocus />
+            </com.edmodo.cropper.CropImageView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/baddNewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add tag for selected region" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:text="Tags"
+            android:textColor="#ff1e8bd4"
+            android:textSize="27sp" />
+
+        <LinearLayout
+            android:id="@+id/llTagsGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="colors">
+        <item>@color/holo_blue_dark</item>
+        <item>@color/holo_yellow_dark</item>
+        <item>@color/holo_green_dark</item>
+        <item>@color/holo_purple_dark</item>
+        <item>@color/holo_red_dark</item>
+    </integer-array>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#427fed</color>
+    <color name="gplus_color_3">#b23424</color>
+    <color name="gplus_color_4">#f4b400</color>
+
+    
+    <color name="holo_yellow_dark">#ff8800</color>
+    <color name="holo_green_dark">#669900</color>
+    <color name="holo_purple_dark">#9933cc</color>
+    <color name="holo_red_dark">#cc0000</color>
+    
+    <color name="btn_pressed">#ff33b5e5</color>
+	<color name="btn_focused">#ff0099cc</color>
+	<color name="btn_normal">#00000000</color>
+	
+	<color name="popup_bg_color">#EE666666</color>
+	<color name="separator_color">#BBBBBB</color>
+	<color name="popup_text_color">#FFFFFF</color>
+	
+	<color name="black_overlay">#66000000</color>
+    <color name="md__defaultBackground">#ff555555</color>
+    <color name="black">#ff000000</color>
+    <color name="blackish_trans">#cc1c1e20</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#66ffffff</color>
+    <color name="alarm_whiteish">#0cffffff</color>
+    <color name="clock_white">#ffffffff</color>
+    <color name="clock_gray">#80ffffff</color>
+    <color name="alarm_selected_color">#aa0099cc</color>
+    <color name="bkg_start">#003291c0</color>
+    <color name="bkg">#2033b5e5</color>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <item type="color" name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</item>
+    <item type="color" name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</item>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</item>
+    <item type="color" name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</item>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+    <color name="holo_dark">#ff0099cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="gesture_color_normal">#00000000</color>
+    <color name="gesture_color_oper_pressed">#550099cc</color>
+    <color name="gesture_color_oper_hint">#55669900</color>
+    <color name="gesture_color_seting_hint">#55ff8800</color>
+    <color name="gesture_color_seting_active">#55ff4444</color>
+    <color name="color_background_menu">#ff303032</color>
+    <color name="color_text_menu">#ff1da4f6</color>
+    
+    <color name="divider">#ffcccccc</color>
+    <color name="bottom_bar_text">#ff888888</color>
+    <color name="bottom_bar_bg">#fff1f1f1</color>
+    <color name="actions_bg">#ff3c3c3c</color>
+    <color name="actions_divider">#ff888888</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="beproject.cbir"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".TagIt"
+        android:allowBackup="true"
+        android:icon="@drawable/camera"
+        android:label="TagIt"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="beproject.cbir.StartPage"
+            android:label="TagIt"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="beproject.cbir.TrainActivity"
+            android:icon="@drawable/hash"
+            android:label="  Add Tags"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="beproject.cbir.TagActivity"
+            android:icon="@drawable/hash"
+            android:label="  Tags"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="beproject.cbir.DialogActivity"
+            android:icon="@drawable/hash"
+            android:label="  Add Tags"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="beproject.cbir.KeywordSearchActivity"
+            android:icon="@drawable/hash"
+            android:label="  Search"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name=".ImagePagerActivity"
+            android:icon="@drawable/hash"
+            android:label="  Search Results"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ImageSearchActivity"
+            android:icon="@drawable/hash"
+            android:label="  Image Search"
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>
